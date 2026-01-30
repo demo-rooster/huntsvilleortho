@@ -1,157 +1,187 @@
 {
-    "enable_development_mode": false,
-    "company_name": "Sekijima Orthodontics",
-    "domain": "sekijimaorthodontics.com",
-    "email": "drbob@sekijimaorthodontics.com",
-    "phone": {
-      "number": "(425) 235-4830",
-      "href": "tel:+14252354830",
-      "aria": "4 2 5, 2 3 5, 4 8 3 0"
+  "enable_development_mode": false,
+  "company_name": "Johnson Orthodontics",
+  "domain": "huntsvilleortho.com",
+  "email": "info@huntsvilleortho.com",
+  "phone": {
+    "number": "",
+    "href": "",
+    "aria": ""
+  },
+  "location": [
+    {
+      "title": "Huntsville Office",
+      "address": {
+        "street": "",
+        "suite": "",
+        "city_state": "Huntsville, AL",
+        "coordinates": {
+          "longitude": "",
+          "latitude": ""
+        }
+      },
+      "phone": {
+        "number": "",
+        "href": ""
+      },
+      "email": "info@huntsvilleortho.com",
+      "hours": [
+        {
+          "day": "Mon",
+          "time": "8:30 - 5:00"
+        },
+        {
+          "day": "Tues - Thurs",
+          "time": "8:30 - 5:00"
+        },
+        {
+          "day": "Fri",
+          "time": "8:30 - 1:00"
+        },
+        {
+          "day": "Sat - Sun",
+          "time": "Closed"
+        }
+      ],
+      "directions_link": {
+        "href": "",
+        "label": "Get Directions"
+      },
+      "special_note": ""
+    }
+  ],
+  "typography": [
+    {
+      "label": "font",
+      "font": "'Open Sans', helvetica, arial, sans-serif"
     },
-    "location": [
+    {
+      "label": "font-title",
+      "font": "'Archivo', sans-serif"
+    }
+  ],
+  "top_bar": {
+    "enable_top_bar": true,
+    "type": "links",
+    "theme": "light",
+    "content_alignment": "right",
+    "links": [
       {
-        "title": "Renton Office",
-        "address": {
-          "street": "1620 Duvall Ave NE",
-          "suite": "Suite B",
-          "city_state": "Renton, WA 98059",
-          "coordinates": {
-            "longitude": "-122.155779",
-            "latitude": "47.506681"
-          }
-        },
-        "phone": {
-          "number": "(425) 235-4830",
-          "href": "tel:+14252354830"
-        },
-        "email": "drbob@sekijimaorthodontics.com",
-        "hours": [
-          {
-            "day": "Monday",
-            "time": "9:00am - 5:00pm"
-          },
-          {
-            "day": "Tuesday",
-            "time": "9:00am - 5:00pm"
-          },
-          {
-            "day": "Wednesday",
-            "time": "9:00am - 1:00pm"
-          },
-          {
-            "day": "Thursday",
-            "time": "12:00pm - 5:30pm"
-          },
-          {
-            "day": "Friday",
-            "time": "Closed"
-          },
-          {
-            "day": "Saturday",
-            "time": "Closed"
-          },
-          {
-            "day": "Sunday",
-            "time": "Closed"
-          }
-        ],
-        "directions_link": {
-          "href": "http://maps.google.com/maps?client=safari&q=1620+Duvall+Ave+NE+Suite+B+Renton,+WA+98059&oe=UTF-8&ie=UTF8&hq=&hnear=1620+Duvall+Ave+NE,+Renton,+Washington+98059&gl=us&vpsrc=0&ll=47.506681,-122.155779&spn=0.00761,0.01929&z=14&iwloc=A&source=embed",
-          "label": "Get Directions"
-        },
-        "special_note": ""
-      }
-    ],
-    "typography": [
-      {
-        "label": "font",
-        "font": "'Open Sans', helvetica, arial, sans-serif"
+        "icon": "phone",
+        "text": "Free Consults — Book Online",
+        "href": "https://huntsvilleortho.com/free-consult",
+        "label": "Book a free consultation",
+        "new_window": true
       },
       {
-        "label": "font-title",
-        "font": "'Archivo', sans-serif"
+        "icon": "envelope",
+        "text": "info@huntsvilleortho.com",
+        "href": "mailto:info@huntsvilleortho.com",
+        "label": "Email Johnson Orthodontics",
+        "new_window": false
       }
     ],
-    "top_bar": {
-      "enable_top_bar": true,
-      "type": "links",
-      "theme": "light",
-      "content_alignment": "right",
-      "links": [
-        {
-          "icon": "google",
-          "text": "1620 Duvall Ave NE Suite B, Renton, WA 98059",
-          "href": "http://maps.google.com/maps?client=safari&q=1620+Duvall+Ave+NE+Suite+B+Renton,+WA+98059&oe=UTF-8&ie=UTF8&hq=&hnear=1620+Duvall+Ave+NE,+Renton,+Washington+98059&gl=us&vpsrc=0&ll=47.506681,-122.155779&spn=0.00761,0.01929&z=14&iwloc=A&source=embed",
-          "label": "View 1620 Duvall Ave NE Suite B, Renton, WA 98059 on Google Maps",
-          "new_window": true
-        },
-        {
-          "icon": "phone",
-          "text": "(425) 235-4830",
-          "href": "tel:+14252354830",
-          "label": "Call Sekijima Orthodontics",
-          "new_window": false
+    "announcement": {
+      "icon": "tooth-two-v1",
+      "label": "Free Consultation",
+      "text": "Free consultations and same-day starts available. Click to learn more.",
+      "mobile_text": "Free Consultation",
+      "modal": {
+        "title": "Free Consultation",
+        "text": "<p>At Johnson Orthodontics we offer a complimentary consultation to discuss goals, digital scans, and same-day starts when appropriate. Book online or call our office to reserve your appointment.</p>"
+      }
+    }
+  },
+  "nav": {
+    "cta_buttons": true,
+    "buttons": [
+      {
+        "button": {
+          "type": "nuxt",
+          "style": "primary",
+          "label": "Free Consult",
+          "aria_label": "Schedule a free consultation",
+          "href": "https://huntsvilleortho.com/free-consult",
+          "path": "",
+          "hash": "",
+          "external": true,
+          "include_icon": false,
+          "icon": "pencil",
+          "color": "primary"
         }
-      ],
-      "announcement": {
-        "icon": "tooth-stars",
-        "label": "Complimentary consultation",
-        "text": "We offer a complimentary initial consultation that includes an exam, pano x-ray, and discussion of treatment options.",
-        "mobile_text": "Free consultation",
-        "modal": {
-          "title": "Complimentary Initial Consultation",
-          "text": "<p>There is no charge for your first consultation. We include a thorough exam, diagnostic imaging when needed, and a clear discussion of recommended options and timing. If treatment is appropriate, diagnostic records can often be taken the same day to streamline your care.</p><p>To prepare, please download and complete the New Patient and Medical History forms from our website and bring them to your appointment.</p>"
+      },
+      {
+        "button": {
+          "type": "nuxt",
+          "style": "secondary",
+          "label": "New Patients",
+          "aria_label": "New patients and forms",
+          "href": "https://huntsvilleortho.com/new-patients",
+          "path": "",
+          "hash": "",
+          "external": true,
+          "include_icon": false,
+          "icon": "envelope",
+          "color": "accent"
+        }
+      },
+      {
+        "button": {
+          "type": "nuxt",
+          "style": "underline",
+          "label": "Our Treatments",
+          "aria_label": "Learn about treatments",
+          "href": "https://huntsvilleortho.com/our-treatments/",
+          "path": "",
+          "hash": "",
+          "external": true,
+          "include_icon": false,
+          "icon": "tooth-check",
+          "color": "black"
         }
       }
-    },
-    "nav": {
-      "cta_buttons": true,
-      "buttons": [
-        {
-          "button": {
-            "type": "nuxt",
-            "style": "primary",
-            "label": "Schedule Consultation",
-            "aria_label": "Schedule a consultation",
-            "href": "",
-            "path": "/appointments",
-            "hash": "",
-            "external": false,
-            "include_icon": false,
-            "icon": "phone",
-            "color": "primary"
-          }
-        }
-      ],
-      "floating": true
-    },
-    "footer": {
-      "social_media": [
-        {
-          "href": "https://www.facebook.com/Sekijimaorthodontics1",
-          "icon": "facebook"
-        }
-      ],
-      "add_border": false
-    },
-    "enable_popup": false,
-    "popup": {
-      "title": "Welcome to Sekijima Orthodontics",
-      "text": "",
-      "image": {
-        "src": "",
-        "webp": "",
-        "alt": "",
-        "aria_hidden": false,
-        "bgColor": "",
-        "imageBackground": false,
-        "addLoader": false,
-        "objectPosition": "",
-        "forceAlt": "",
-        "loading_mask": "",
-        "image_selection_hints": {
-          "context_category": "Contact Hero"
-        }
+    ],
+    "floating": true
+  },
+  "footer": {
+    "social_media": [
+      {
+        "href": "/#",
+        "icon": "facebook"
+      },
+      {
+        "href": "/#",
+        "icon": "instagram"
+      },
+      {
+        "href": "/#",
+        "icon": "yelp"
+      },
+      {
+        "href": "/#",
+        "icon": "google"
+      }
+    ],
+    "add_border": false
+  },
+  "enable_popup": false,
+  "popup": {
+    "title": "Welcome to Johnson Orthodontics",
+    "text": "",
+    "image": {
+      "src": "",
+      "webp": "",
+      "alt": "",
+      "aria_hidden": false,
+      "bgColor": "",
+      "imageBackground": false,
+      "addLoader": false,
+      "objectPosition": "",
+      "forceAlt": "",
+      "loading_mask": "",
+      "image_selection_hints": {
+        "context_category": "New Patients Hero"
       }
     }
   }
+}
